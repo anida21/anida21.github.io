@@ -1,0 +1,132 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+   
+    margin:0;
+    padding: 0;
+    background-image: url("https://www.wallpaperflare.com/static/317/630/437/artwork-simple-background-blue-stars-wallpaper.jpg");
+    background-size: cover;
+     background-repeat: no-repeat ;
+     background-attachment: fixed;
+  }
+  .comment-box {
+    width:500 px;
+    position:absolute;
+    top:20%;
+    bottom: 20%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:black;
+    width:900px;
+    height:180px;
+    background: rgba(211, 247, 247, 0.4);
+    box-sizing:border-box;
+    box-shadow: 0 15px 25px rgba(236, 240, 239, 0.5);
+    border-radius: 10px;
+    margin-top:120px;   
+}
+.comment-box i{
+    width:9px;
+      float:left;
+      text-align:center;
+  }
+.komentari{
+    width: 100%;
+    overflow: hidden;
+    font-size:20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+    color: black;
+    font-weight: bolder;
+    border-bottom-color: white;
+  }
+.komentari i{
+    width:10px;
+    float: right;
+    text-align:right;
+  }
+.btn {
+    widows: 100%;
+    background:rgb(145, 194, 197);
+    border: 5px solid black;
+    color:rgb(8, 3, 3);
+    padding:5px;
+    font-size:20px;
+    cursor: pointer;
+    margin: 5px 150px;
+    margin-left:3%;
+    width: 250px;
+  }
+.comm {
+    margin-left: 15%;
+    cursor: pointer;
+    margin: 50px 150px;
+    margin-left:30%;
+
+  }
+  input[type=submit] {
+    widows: 100%;
+    background:none;
+    border: 2px solid black;
+    color:rgb(8, 3, 3);
+    padding:5px;
+    font-size:18px;
+    cursor: pointer;
+    margin: 5px 150px;
+    margin-left:3%;
+    width: 250px;
+}
+.vel{
+    margin-left: -20%;
+    height: 50px;
+    width: 350px; 
+}
+.num1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin: 50px;
+  margin-left: 0%;
+  border: solid black;
+    background: rgba(211, 247, 247, 0.4);
+    box-sizing:border-box;
+    box-shadow: 0 15px 25px rgba(236, 240, 239, 0.5);
+    border-radius: 10px;
+}
+.num2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 50px;
+    margin-left: 0%;
+    border: solid black;
+    background: rgba(211, 247, 247, 0.4);
+    box-sizing:border-box;
+    box-shadow: 0 15px 25px rgba(236, 240, 239, 0.5);
+    border-radius: 10px;
+  }
+
+  .num3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 50px;
+    margin-left: 0%;
+    border: solid black;
+    background: rgba(211, 247, 247, 0.4);
+    box-sizing:border-box;
+    box-shadow: 0 15px 25px rgba(236, 240, 239, 0.5);
+    border-radius: 10px;
+  }
+.izgl{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin: 50px;
+    margin-left: 20%;
+  }
+div{
+    background-color: transparent;
+    border: solid black;
+    background: rgba(211, 247, 247, 0.4);
+    box-sizing:border-box;
+    box-shadow: 0 15px 25px rgba(236, 240, 239, 0.5);
+    border-radius: 10px;
+}

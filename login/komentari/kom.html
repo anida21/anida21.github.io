@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="kom.css" type="text/css" rel='stylesheet'/>
+</head>
+<body>
+    <h1 style="color: aliceblue; font-family: Arial, Helvetica, sans-serif;" ><b></b><center>Ostavi komentar</center></b></h1>
+    <h3 style="color: aliceblue; font-family: Arial, Helvetica, sans-serif;"><center>Napišite prednosti i mane naše stranice ali i lokala koje ste posjetili. Tako ćete pomoći ostalima da lakše pronađu omiljeno mjesto.</center></h3>
+    <div class="comment-box">
+        <form method="post" action="#" class="comm">
+            <input class="vel" type="text" placeholder="Ostavi komentar"/>
+            <input class="btn" type="submit" value="Komentariši"/>
+        </form>
+    <div class="komentari">
+        <ul class="comments">
+            <li class="num1">
+                <a style="font-family: Arial, Helvetica, sans-serif;" class="commenter_name" href="/" >Adis </a>
+                    Neki lokali su stvarno dobri.
+            </li>
+            
+             <li class="num2">
+                 <a style="font-family: Arial, Helvetica, sans-serif;" class="commenter_name" href="/">Anida</a>
+                 Lijepo je što imamo ovakvu stranicu.
+             </li>
+             <li class="num3">
+                <a style="font-family: Arial, Helvetica, sans-serif;" class="commenter_name" href="/">Husein</a>
+                Stranica pomaže studentima koji nisu iz Sarajeva.
+            </li>
+        </ul>
+    
+</div>
+</div>
+
+<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+<script type="text/javascript">
+$(window).load(function(){
+var user_name = 'Korisnik' ;
+
+    $('.comment-box form').submit(function (e) { //funkcija koja upisuje novi komentar na stranicu
+      e.preventDefault();
+      var comment = $('input', this).val();
+      $('.comments').append('<li class="num1"><a class="commenter_name" href="/">' + user_name + '</a>' + comment + '</li>'); // ubacuje u div usrename i komentar
+    });
+});
+</script>
+</body>
+</html>

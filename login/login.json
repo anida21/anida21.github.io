@@ -1,0 +1,26 @@
+[
+    { "ime":"Anida",
+    "prezime":"Mujezin",
+    "username":"anida",
+    "password":"anida"
+    },
+
+    { "ime":"Adis",
+    "prezime":"Šehović",
+    "username":"adis",
+    "password":"adis"
+    },
+
+    { "ime":"Husein",
+    "prezime":"Džananović",
+    "username":"husein",
+    "password":"husein"
+    },
+
+    {"ime":"root",
+    "prezime":"root",
+    "username":"root",
+    "password":"root"
+    }
+
+]
