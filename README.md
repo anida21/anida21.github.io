@@ -1,1 +1,3 @@
 # PickYourPlace
+
+Chat application
