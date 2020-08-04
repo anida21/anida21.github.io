@@ -1,3 +1,3 @@
 # PickYourPlace
 
-Chat application
+Mini Chat application with Node.js and express
